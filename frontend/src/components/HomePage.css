@@ -1,0 +1,12 @@
+.main-container{
+    padding-top: 1em;
+}
+.grid-container{
+    padding-top: 24px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.video-grid{
+    display: flex;
+    align-items: stretch;
+}

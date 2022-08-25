@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo::first-letter{
+    color:red;
+}
+.logo{
+    position: relative;
+    left: 1.5em;
+}
+.upload-button{
+    position: relative;
+    right: 1.5em;
+    background-color: #4CA3FC !important;
+}
+.search-desktop{
+    background-color: #fff;
+    border: 1px,solid,#444D56;
+    border-radius: 2px 0px 0px 2px;
+    width: 35em;
+}
+.search-icon-box:hover{
+    cursor:pointer;
+}
+/* .search-icon-box{
+    background-color:#606060;
+} */

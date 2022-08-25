@@ -1,0 +1,56 @@
+.filters-main-container{
+    display:flex;
+    background-color: "primary.main";
+    color:#fff;
+}
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1.5 1 0;
+}
+.genre-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.genre-pills{
+    border-radius: 16px;
+    padding: 5px;
+    margin: 0.8em;
+}
+.genre-pills:hover{
+    cursor:pointer;
+}
+.rating-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.rating-pills{
+    border-radius: 16px;
+    padding: 5px;
+    margin: 0.8em;
+}
+.rating-pills:hover{
+    cursor: pointer;
+}
+.sort-container{
+    flex: 1 1 0;
+}
+.sort-pill-container{
+    border-radius: 50px;
+    width: 250px;
+}
+.sort-pill-select{
+    border-radius: 50px !important;
+}
+.sort-pill{
+    border-radius: 50px;
+    width:250px;
+}
+.selected-pill{
+    color:#000;
+    background-color: #fff;
+}
+.swap-icon{
+    position: relative !important;
+    top: 5px !important;
+}

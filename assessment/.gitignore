@@ -1,0 +1,8 @@
+.DS_Store
+.AppleDouble
+node_modules/*
+cypress
+screenshots
+.idea/**
+.mp4
+package-lock.json

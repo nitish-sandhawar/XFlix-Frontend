@@ -1,0 +1,9 @@
+.gitattributes merge=copy-merge
+.gitignore merge=copy-merge
+runAssessment.sh merge=copy-merge
+assessment/** merge=copy-merge
+__CRIO__/* merge=copy-merge
+package-lock.json merge=copy-merge
+assessment/package-lock.json merge=copy-merge
+assessment/package.json merge=copy-merge
+assessment/pnpm-lock.yaml merge=copy-merge
